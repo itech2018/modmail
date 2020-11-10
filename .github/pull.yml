@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: itech2018:master
+    mergeMethod: hardreset
+  - base: development
+    upstream: itech2018:development
+    mergeMethod: hardreset
